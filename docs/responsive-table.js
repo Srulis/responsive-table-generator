@@ -4,10 +4,10 @@
 	var dev = window.location.hostname.indexOf('localhost') > -1;
 	var store = { data: [], columns: {}, highlightRows: [] };
 	var copy = {
-		hed: 'Hed',
-		dek: 'Dek goes here.',
-		sourcePre: 'SOURCE',
-		sourcePost: 'Sources'
+		hed: 'Table Header',
+		dek: 'Table header description goes here',
+		sourcePre: '',
+		sourcePost: ''
 	};
 
 	var options = {};
