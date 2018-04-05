@@ -164,17 +164,26 @@
 	}
 
 	const generateCode = () => {
-		updateCopy()
+		updateCopy();
 
-		store.highlightRows = []
+		store.highlightRows = [];
 
 		$('.rg-table tbody tr').each(function() {
-			store.highlightRows.push($(this).hasClass('highlight'))
+			store.highlightRows.push($(this).hasClass('highlight'));
 		})
 
-		const html = createHTML({ editable: '' })
+		const html = createHTML({ editable: '' });
+		
+		console.log('Breate HTML into CSS and HTML');
 
-		$('.output-code').val(html)
+		var output_CSS = $(html,'style')[0].innerHTML;
+		var output_HTML = $(html,'style')[1].innerHTML;
+
+		console.log('Breate HTML into CSS and HTML');
+		console.log(output_CSS);
+		console.log(output_HTML);
+
+		$('.output-code').val(html);
 	}
 
 	const bindEvents = () => {
