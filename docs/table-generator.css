@@ -1,0 +1,106 @@
+.column-types {
+	margin-bottom: 0.5em;
+}
+
+.column-type {
+	border-bottom: 1px solid #ccc;
+}
+
+.column-type span {
+	display: inline-block;
+	min-width: 80px;
+	color: #000;
+	font-size: 0.9em;
+}
+
+.button-types {
+	display: inline-block;
+}
+
+.button-types button {
+	display: inline;
+	background: #ccc;
+	color: #fff;
+	width: auto;
+	text-transform: uppercase;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	border: none;
+}
+
+.button-types button.selected {
+	background: #000;
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+.mobile-rows-container {
+	height: 100%;
+	overflow: hidden;
+}
+
+.mobile-rows-slider {
+	display: inline;
+	float: left;
+	margin: 0;
+	width: 80%;
+}
+
+.mobile-rows-text {
+	margin: 0;
+	display: inline;
+	float: left;
+	margin-left: 5%;
+	width: 15%;
+	text-align: center;
+}
+
+.breakpoint-container {
+	height: 100%;
+	overflow: hidden;
+}
+
+.breakpoint-slider {
+	display: inline;
+	float: left;
+	margin: 0;
+	width: 80%;
+}
+
+.breakpoint-text {
+	margin: 0;
+	display: inline;
+	float: left;
+	margin-left: 5%;
+	width: 15%;
+	text-align: center;
+}
+
+.zebra-buttons button {
+	display: inline;
+	background: #ccc;
+	color: #fff;
+	width: auto;
+	text-transform: uppercase;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	border: none;
+}
+
+.zebra-buttons button.selected {
+	background: #000;
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+
+.rg-table tr {
+	cursor: pointer;
+}
+
+.using {
+	background: rgba(255, 238, 0, 0.5);
+	padding: 0.2em;
+	text-align: center;
+	color: #1a1a1a;
+}
